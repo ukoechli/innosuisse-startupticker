@@ -13,12 +13,12 @@ Investors and support organisations want to know whether the startups in their p
 
 There are several possibilities: 1) an interface on the Startupticker website for simple analyses based on the data 2) Refining the existing data by adding verticals or categorizations.
 
-* Format: 
-•	Presentation with slides and short live demo if possible
+Format: 
+* Presentation with slides and short live demo if possible
 Key elements:
-•	Concept, functionality, examples, description of the necessary work up to the finished product
+* Concept, functionality, examples, description of the necessary work up to the finished product
 Requirements:
-•	The prototype is far more relevant than the presentation itself
+* The prototype is far more relevant than the presentation itself
 
 
 ## Data:
@@ -43,19 +43,19 @@ Please provide data here.
 
 ## Judging Criteria:
 
-●	Visual design (10%)
+* Visual design (10%)
 The design must make it possible for non-experts to use the interface. 
-●	Feasibility (40%) 
+* Feasibility (40%) 
 As Startupticker is a small organisation with very limited resources, it is important that the solution does not require large resources for implementation or operation. ..
-●	Reachability (50%)
+* Reachability (50%)
 The closer the solution is to a usable product, the better.
 
 
 ## Point of Contact:
 
-•	Stefan Kyora, Editor in Chief, Startupticker
-•	Ritah Nyakato, Duty Editor, Startupticker
-•	Benjamin Klavins, Data Analyst, Startupticker
+* Stefan Kyora, Editor in Chief, Startupticker
+* Ritah Nyakato, Duty Editor, Startupticker
+* Benjamin Klavins, Data Analyst, Startupticker
 
 
 ## Price - the winning team members will each receive:
