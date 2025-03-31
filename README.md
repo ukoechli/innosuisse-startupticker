@@ -37,25 +37,29 @@ Insert Deep Dive Slides here:
 
 ## Further Information:
 
+Add further information
+
+## Resources:
+
+### Startupticker
+
+[Data-startupticker.xlsx](https://github.com/user-attachments/files/19537050/Data-startupticker.xlsx)
+ contains the database from startupticker and a short description about the fields. There are 5213 companies and 3902 deals. 
+
+### Crunchbase
+
+[Data-crunchbase.xlsx](https://github.com/user-attachments/files/19537056/Data-crunchbase.xlsx)
+ contains a selection of the database from crunchbase and a short description about the fields. There are 10'000 organizations and 10'956 funding rounds. You find a full data dictionary here: [full_data_dictionary_crunchbase.pdf](https://github.com/user-attachments/files/19537062/full_data_dictionary_crunchbase.pdf).
+
+For more information about the data, turn to the crunchbase documentation: https://data.crunchbase.com/docs/getting-started. 
+
 ### Swiss Official Gazette of Commerce
 
 The Swiss Official Gazette of Commerce (SOGC) is a public database containing information about legal form, ownership and management of the companies and legal entities registered there. It can be accessed here: https://www.shab.ch/#!/search/publications. This database can be useful for information such as the names of the founders, citizenships of the founders and official liquidations, current residence address and changes to the corporate structure of companies. 
 
 Due to a change of the database on the 02. September 2018, the archive has to be visited for information prior to this date. This can be accessed here: https://www.shab.ch/#!/search/archive.
 
-For more information how to use it, please turn to the pdf file: How to use the SOGC. 
-
-## Resources:
-
-### Startupticker
-
-Data-startupticker.xlsx contains the database from startupticker and a short description about the fields. There are 5213 companies and 3902 deals. 
-
-### Crunchbase
-
-Data-crunchbase.xlsx contains a selection of the database from crunchbase and a short description about the fields. There are 10'000 organizations and 10'956 funding rounds. You find a full data dictionary in the full_data_dictionary_crunchbase.pdf file. 
-
-For more information about the data, turn to the crunchbase documentation: https://data.crunchbase.com/docs/getting-started. 
+Here you find more information about how to use it: [How to use the SOGC.pdf](https://github.com/user-attachments/files/19537068/How.to.use.the.SOGC.pdf).
 
 ## Judging Criteria:
 
