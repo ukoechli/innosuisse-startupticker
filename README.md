@@ -35,7 +35,11 @@ Insert Deep Dive Slides here:
 
 ## Further Information:
 
-Insert further information here
+### Swiss Official Gazette of Commerce
+
+The Swiss Official Gazette of Commerce (SOGC) is a public database containing information about legal form, ownership and management of the companies and legal entities registered there. It can be accessed here: https://www.shab.ch/#!/search/publications. This database can be useful for information such as the names of the founders, citizenships of the founders and official liquidations, current residence address and changes to the corporate structure of companies. 
+
+Due to a change of the database on the 02. September 2018, the archive has to be visited for information prior to this date. This can be accessed here: https://www.shab.ch/#!/search/archive.
 
 ## Resources:
 
