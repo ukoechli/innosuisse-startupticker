@@ -41,9 +41,19 @@ The Swiss Official Gazette of Commerce (SOGC) is a public database containing in
 
 Due to a change of the database on the 02. September 2018, the archive has to be visited for information prior to this date. This can be accessed here: https://www.shab.ch/#!/search/archive.
 
+For more information how to use it, please turn to the pdf file: How to use the SOGC. 
+
 ## Resources:
 
-Please provide data here.
+### Startupticker
+
+Data-startupticker.xlsx contains the database from startupticker and a short description about the fields. There are 5213 companies and 3902 deals. 
+
+### Crunchbase
+
+Data-crunchbase.xlsx contains a selection of the database from crunchbase and a short description about the fields. There are 10'000 organizations and 10'956 funding rounds. You find a full data dictionary in the full_data_dictionary_crunchbase.pdf file. 
+
+For more information about the data, turn to the crunchbase documentation: https://data.crunchbase.com/docs/getting-started. 
 
 ## Judging Criteria:
 
