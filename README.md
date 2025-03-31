@@ -25,6 +25,8 @@ Requirements:
 The Startupticker database includes data of more than 5000 Swiss start-ups. The datasets include Founding year, sector, canton, website. In addition, we have a comprehensive database of transactions since 2012 which includes funding rounds, acquisitions and liquidations.
 We will provide the database in an excel file.
 
+
+
 ## The Pitch:
 
 Insert Pitchdeck here
