@@ -1,17 +1,24 @@
 # INNOSUISSE & STARTUPTICKER
 # Empowering Swiss start-ups and investors with AI-driven data insights
 
-Startupticker has a large, reliable data set on Swiss startups. This data is only used for reports and is otherwise not available. We see huge untapped potential in making this data available to start-ups, investors and support organisations. It would be ideal for creating more transparency in the ecosystem. There is also great potential for refining the data.
+Startupticker has a large, reliable data set on Swiss startups. This data is only used for reports and is otherwise not available. We see huge untapped potential in making this data available to start-ups, investors and support organisations. It would be ideal for creating more transparency in the ecosystem. There is also great potential for semantic search.
 
 * Use case 1: Recognising trends
-Investors and startups want to know how a sector or vertical has developed, for example to recognise whether there are signs of a recovery in investments or whether rising valuations or a wave of startups looking for investors can be expected.
+Recognising trends with semantic search: Investors and startups want to know how a sector or vertical has developed, for example to recognise whether there are signs of a recovery in investments or whether rising valuations or a wave of startups looking for investors can be expected
 
 * Use case 2: Benchmarking
 Investors and support organisations want to know whether the startups in their portfolio are performing better or worse than average. As all other content by Startupticker, the analyses will be offered for free.
 
 ## Expected Outcome:
 
-There are several possibilities: 1) an interface on the Startupticker website for simple analyses based on the data 2) Refining the existing data by adding verticals or categorizations.
+There are two possibilities: 
+Recognising trends with semantic search 
+Ontology instead of standard classification for the three data sets
+Step 1: create a model to organise descriptors/tags 
+Step 2: develop algorithms able to hat capture them 
+
+Benchmarking
+Dashboard on the Startupticker website for users to perform simple analyses
 
 Format: 
 * Presentation with slides and short live demo if possible
