@@ -35,7 +35,7 @@ We will provide the database in an excel file.
 
 
 ## The Pitch:
-
+[SwissHacksStartuptickerPitch.pdf](https://github.com/user-attachments/files/19607111/SwissHacksStartuptickerPitch.pdf)
 
 ## Deep Dive Slides:
 
