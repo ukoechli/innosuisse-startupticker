@@ -2,12 +2,12 @@ import pandas as pd
 from sqlalchemy import create_engine
 import re
 import sqlite3
-# Chemins vers tes fichiers
+# path to data
 file_crunchbase = "Data-crunchbase.xlsx"
 file_startupticker = "Data-startupticker.xlsx"
 sqlite_db = "startups_clean.db"
 
-# === Map des feuilles à traiter : nom_table -> (fichier, feuille_données, feuille_description)
+# === Mappping of the sheet to treat
 sheets_to_process = {
     "startupticker_companies": (file_startupticker, "Companies", "Company description"),
     "startupticker_deals": (file_startupticker, "Deals", "Deal description"),
@@ -24,24 +24,24 @@ def clean_string(s):
     return s
 
 def convert_columns_based_on_type(df1, df2):
-    # On parcourt les colonnes de df1
+    
     for col_name in df1.columns:
-        # Chercher le type attendu dans df2 pour la colonne actuelle
+        
         type_row = df2[df2['Data field'] == col_name]
         
-        # Si un type est trouvé pour cette colonne, on effectue la conversion
+        
         if not type_row.empty:
-            expected_type = type_row['Data type'].values[0]  # Récupérer le type attendu
+            expected_type = type_row['Data type'].values[0]  
 
-            # Conversion en fonction du type attendu
+            # convert in the right data type else nan
             if expected_type == 'int':
-                df1[col_name] = pd.to_numeric(df1[col_name], errors='coerce')  # Conversion en int
+                df1[col_name] = pd.to_numeric(df1[col_name], errors='coerce')  
             elif expected_type == 'char'or expected_type == 'char (classification)' :
                 df1[col_name] = df1[col_name].astype(str)
                 
                 df1[col_name] = df1[col_name].apply(clean_string)  
             elif expected_type == 'bool':
-                df1[col_name] = df1[col_name].astype(bool)  # Conversion en bool
+                df1[col_name] = df1[col_name].astype(bool)  
             elif expected_type == 'numeric' : 
                 df1[col_name] = df1[col_name].astype(float)
             elif expected_type == 'date' : 
@@ -68,22 +68,20 @@ for table_name, (file, data_sheet, desc_sheet) in sheets_to_process.items():
 
     df_data.to_sql(table_name, con=engine, if_exists="replace", index=False)
 if __name__ == "__main__":
-    # Chemin vers ta base de données SQLite
+    # way to the base
     sqlite_db = 'startups_clean.db'
 
-    # Connexion à la base de données SQLite
+    # Connect the base SQLite
     conn = sqlite3.connect(sqlite_db)
     cursor = conn.cursor()
 
-    # Exemple de requête SQL : récupérer toutes les lignes d'une table appelée "utilisateurs"
+    # e.g of sql request
     cursor.execute("SELECT * FROM startupticker_companies Join startupticker_deals on startupticker_deals.Company = startupticker_companies.Title  WHERE Funded = False")
 
-    # Récupérer tous les résultats de la requête
+    # get the request
     resultats = cursor.fetchall()
 
-    # Afficher les résultats
+    # plot result 
     for ligne in resultats:
         print(ligne)
-
-    # Fermer la connexion
     conn.close()
