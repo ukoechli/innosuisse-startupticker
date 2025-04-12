@@ -30,4 +30,4 @@ result = chain.invoke(
     }
 )
 
-print(result)
+print(result.content)
